@@ -66,17 +66,27 @@ justify-content:center
 }
 .search-box{
     display:flex;
+    justify-content:center;
+    align-items:center;
 }
-.search-box img{
-    position:absolute;
-    top:0vh;
-    height:2vh;
+.search-box div{
+    height:6vh;
+    display:flex;
+    align-items:center;
+}
+.search-box div button img{
+    height:20;
     width:2vh;
     margin:5px;
-    left:-1.5vw;
+    
+}
+.search-box div button{
+    background-color:#2455f4;
+    border:0px
 }
 .search-box input{
     width:30vw;
+    height:2vh;
 }
 .card-container{
     width: 90vw;
